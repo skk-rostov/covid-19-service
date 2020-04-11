@@ -1,8 +1,6 @@
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true });
 const fetch = require('node-fetch');
-const path = require('path');
-const moment = require('moment');
 const fs = require('fs')
 
 //=========================================
