@@ -1,0 +1,32 @@
+{
+  "name": "covid-19-service",
+  "version": "1.0.0",
+  "description": "This program API service for informer",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skk-rostov/covid-19-service.git"
+  },
+  "keywords": [
+    "covid",
+    "covid-19"
+  ],
+  "dependencies": {
+    "fastify": "^2.13.0",
+    "fastify-static": "^2.6.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.3"
+  },
+  "author": "Sagdinov Aleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skk-rostov/covid-19-service/issues"
+  },
+  "homepage": "https://github.com/skk-rostov/covid-19-service#readme"
+}
