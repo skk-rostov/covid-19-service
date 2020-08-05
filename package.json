@@ -16,7 +16,7 @@
     "covid-19"
   ],
   "dependencies": {
-    "fastify": "^2.13.0",
+    "fastify": "^2.15.1",
     "fs": "0.0.1-security",
     "node-fetch": "^2.6.0"
   },
